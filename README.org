@@ -1,0 +1,24 @@
+#+TITLE:     Template for Ascii game using Ncurses
+#+AUTHOR:    Om D.
+#+DATE:      2026-11-17
+
+* Framework/Template for an Ascii Game
+This is a framework for the ascii game I was working on. It has a game loop, object abstract class with virtual functions to define behavior.
+
+* How to run?
+
+#+BEGIN_SRC shell
+git clone https://github.com/om101deore/ascii_game_template.git
+cd ascii_game_template
+mkdir build
+cmake -B build
+cd build
+make
+./myapp
+#+END_SRC
+
+=make= to compile the project and =./myapp= to execute the binary.
+
+#+BEGIN_QUOTE
+Feel free to send prs!
+#+END_QUOTE
